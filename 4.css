@@ -1,0 +1,39 @@
+html{
+	height: 100%;      
+}
+                        /*body需要设置height为100%，才能为block块提供relative中央对齐的 “参照”  */
+body{
+	height: 100%;
+	margin:0;           /*只有将body的父标签html的height也设置为100%才能保证block属性的标签占据整块屏幕*/
+	padding: 0;
+}
+
+
+
+img{
+	width: 100px;
+	height: 100px;
+}
+#block{
+	margin:0 auto;
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	margin-top: -100px;
+
+
+	overflow: hidden;
+}
+#circle1{
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+#circle2{
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+
+}

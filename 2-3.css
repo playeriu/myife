@@ -1,0 +1,36 @@
+div{
+		padding: 20px;
+		margin: 0;
+		border: 1px #999 solid;
+		overflow: auto;
+}
+img{
+	height: 80px;
+	width: 80px;
+}
+#content{
+	background-color: #eee;
+
+}
+#l{
+	float: left;
+	display: inline-block;
+	text-align: center;
+	max-width: 180px;
+}
+#c{
+	margin: 0 160px 0 220px;
+}
+#r{
+	float: right;
+	width: 80px;
+}
+.pic{
+	margin-bottom: 20px;
+}
+#logo{
+	float: left;
+}
+.b{
+	background-color:#E0E0E0
+}

@@ -1,0 +1,54 @@
+body {	
+		background-color: #CCCCCC;
+		/*max-width: 1000px;*/
+	}
+strong {color: red;}
+div.rest {
+	border: 4px solid gray;
+	margin-top:100px ;
+	padding: 12px ;
+	background-color: white;
+	height: auto;
+	width: auto;
+}
+div.first{
+	height: 100px;
+	padding: 0px;
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;}
+div.pic{
+	display: inline-block;
+	width: 200px;
+	padding: 6px ;
+	margin: lem;
+	border: 2px solid gray;
+
+}
+.first a {color: white;}
+.picname {color: orange;font-weight:bold;}
+.picname::before{content: " " url("images/Yellow-pin.png");}
+h2 {color: black;font-weight: bold;}
+h3 {color: gray;}
+.zuozhe{font-size: 2px;}
+#biaotou{
+	background-color: black;}
+#biaotou th{color: white;}
+#zongji{
+	background-color: #CCFFFF;
+}
+#zongji th{color: black;}
+img {border: 2px solid #ccc;height: 100px;width: 200px}
+table{	width: 100%;
+		border: 1px solid black;
+	
+	}
+#logo{height: 100px;width: 150px;border:0px;}
+#celan{border-left: 4px solid #9999CC;}
+#zhuce{text-indent: 400px;}
+.daohang{display: inline-block;}
+#daohang{float: right;}
+#tijiao{width: 100%;
+		background-color: #00FFFF;}
